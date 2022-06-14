@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.contenair{
+    height:100vh;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.contenair>header,.content,footer{
+    padding: 20px;
+}
+
+header{
+    background-color: purple;
+}
+.content{
+    background-color: olivedrab;
+    padding-bottom:53vh;
+}
+aside{
+    background-color: orange;
+}
+footer{
+    background-color: blue;
+}
+@media screen and (min-width:800px){
+    .menu{
+        display: flex;
+        flex-direction: ;
+    }
+    .content{
+        flex: 3;
+        padding-bottom:550px;
+    }
+    aside{
+        flex: 1;
+    }
+
+}
